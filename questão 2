@@ -64,14 +64,12 @@
 
     <script>
         function calcularSoma() {
-            // Lê os valores e converte de string para número
+
             const num1 = Number(document.getElementById('n1').value);
             const num2 = Number(document.getElementById('n2').value);
-            
-            // Faz a soma
+  
             const total = num1 + num2;
 
-            // Exibe o resultado no parágrafo 'output'
             document.getElementById('output').textContent = `Resultado: ${total}`;
         }
     </script>
