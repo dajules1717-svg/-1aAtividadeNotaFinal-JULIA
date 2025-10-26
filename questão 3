@@ -40,10 +40,8 @@
         const CORES = ['white', 'blue', 'green', 'orange', 'purple', 'teal', 'pink', 'black'];
 
         function mudarCor() {
-            // Seleciona um índice aleatório (0 até o tamanho do array menos 1)
             const indiceAleatorio = Math.floor(Math.random() * CORES.length);
-            
-            // Pega a cor e a aplica ao corpo do documento
+        
             document.body.style.backgroundColor = CORES[indiceAleatorio];
         }
     </script>
